@@ -1,6 +1,6 @@
-# plotly-template
+# plotly-template for dexbot
 
-<h4> Dexbot visualization guidelines</h4>
+<h4> Working Document: Dexbot visualization guidelines</h4>
 <ul>
 <li> Privacy
 <li> Pandas Time Series
