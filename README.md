@@ -25,7 +25,8 @@ To make a file public in the API, set the optional argument 'world_readable' to 
 plot.ly runs a webserver locally when plot() is used. iplot is for notebooks such as jupyter. 
 
 
-<h4>Todo: </h4>
+<h4> Complete: </h4>
+See my comments on other thread: https://github.com/Codaone/DEXBot/issues/604#issuecomment-498075090
 <ul>
 <li> Investigate integration with existing PyQT5 desktop app/pywebview
 <li> Dash licensing restrictions and webserver implementation:
@@ -33,6 +34,9 @@ https://dash.plot.ly/deployment
 https://community.plot.ly/t/accessing-dash-webserver-from-hosts-other-than-localhost/4675/9
 https://dash.plot.ly/live-updates
 </ul>
+
+<h4> Todo: </h4>
+ None
 
 <h4> Links to additional resources: </h4>
 <ul>
