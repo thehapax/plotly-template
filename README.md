@@ -17,7 +17,7 @@ To make a file public in the API, set the optional argument 'world_readable' to 
 
 2. Pandas: Dexbot data prechart should be managed in pandas. There are 7 different ways in which time series data can be charted. I would advise using the pandas as much as possible to be consistent instead of js. It is also more powerful and less code to maintain. The pandas library is geared for financial applications and easier to manage large amounts of financial data dynamically. would also advise against numpy arrays or javascript arrays for handling and parsing data. Use javascript framework only if absolutely necessary. 
 
-3. Real Time Updates. Plot.ly enables real time updates to charts. need to modify sample code to use plotly.offline for local display.  see https://plot.ly/python/sending-data-to-charts/
+3. Real Time Updates. Plot.ly enables real time updates to charts. need to modify sample code to use plotly.offline for local display.  see https://plot.ly/python/sending-data-to-charts/ , also The fileopt parameter is deprecated and will be removed in plotly.py version 4, does not appear to work from the samples tried so far. 
 
 4. Interactivity: Plot.ly enables end users to modify and filter data views. see modified sample code to use plotly.offline for privacy. see privacy-slider.py example
 
