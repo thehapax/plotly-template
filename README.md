@@ -26,8 +26,10 @@ plot.ly runs a webserver locally when plot() is used. iplot is for notebooks suc
 
 
 <h4>Todo: </h4>
-Investigate integration with existing PyQT5 desktop app/pywebview
-
+<ul>
+<li> Investigate integration with existing PyQT5 desktop app/pywebview
+<li> Dash licensing restrictions and webserver implementation: https://dash.plot.ly/deployment
+</ul>
 
 <h4> Links to additional resources: </h4>
 <ul>
