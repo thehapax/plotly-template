@@ -11,10 +11,7 @@
 
 1. Privacy: Plot.ly will serve your data publically if privacy settings are not set. Also plot settings by default will redirect users to register for an account online. Dexbot desktop app should be able to retain information locally. In order to do so, all code using plot.ly should have in configuration sharing set to private, or else end user data can be shared publically. see sample code in this repository.
 
-2. Pandas: Dexbot data prechart should be managed in pandas. There are 7 different ways in which time series data can be charted. I would advise using the pandas time-series version to be consistent instead of js. It is also more powerful and less code to maintain.  
-
-The pandas library is geared for financial applications and easier to manage large amounts of financial data dynamically. 
-I would advise against numpy arrays or javascript arrays for handling and parsing data. 
+2. Pandas: Dexbot data prechart should be managed in pandas. There are 7 different ways in which time series data can be charted. I would advise using the pandas time-series version to be consistent instead of js. It is also more powerful and less code to maintain.  The pandas library is geared for financial applications and easier to manage large amounts of financial data dynamically. I would also advise against numpy arrays or javascript arrays for handling and parsing data. 
 
 3. Real Time Updates. Plot.ly enables real time updates to charts. modify sample code to use plotly.offline for local display.  see https://plot.ly/python/sending-data-to-charts/
 
