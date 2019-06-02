@@ -38,4 +38,5 @@ plot.ly runs a webserver locally when plot() is used. iplot is for notebooks suc
 <li> https://towardsdatascience.com/python-for-finance-dash-by-plotly-ccf84045b8be
 <li> https://plot.ly/python/user-guide/   
 <li>  https://plot.ly/python/offline/#plotly-offline-from-command-line
+<li> https://towardsdatascience.com/python-for-finance-dash-by-plotly-ccf84045b8be
 </ul>
