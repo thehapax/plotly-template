@@ -28,7 +28,10 @@ plot.ly runs a webserver locally when plot() is used. iplot is for notebooks suc
 <h4>Todo: </h4>
 <ul>
 <li> Investigate integration with existing PyQT5 desktop app/pywebview
-<li> Dash licensing restrictions and webserver implementation: https://dash.plot.ly/deployment, https://community.plot.ly/t/accessing-dash-webserver-from-hosts-other-than-localhost/4675/9
+<li> Dash licensing restrictions and webserver implementation:
+https://dash.plot.ly/deployment
+https://community.plot.ly/t/accessing-dash-webserver-from-hosts-other-than-localhost/4675/9
+https://dash.plot.ly/live-updates
 </ul>
 
 <h4> Links to additional resources: </h4>
@@ -39,4 +42,7 @@ plot.ly runs a webserver locally when plot() is used. iplot is for notebooks suc
 <li> https://plot.ly/python/user-guide/   
 <li>  https://plot.ly/python/offline/#plotly-offline-from-command-line
 <li> https://towardsdatascience.com/python-for-finance-dash-by-plotly-ccf84045b8be
+<li> https://www.reddit.com/r/Python/comments/3odq8m/plotting_realtime_streaming_data/
+<li> https://github.com/plotly/dash-wind-streaming
+
 </ul>
