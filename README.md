@@ -9,23 +9,23 @@
 <li> local webserver offline display
 </ul>
 
-1. Privacy: Plot.ly will serve your data publically if privacy settings are on. 
-all code using plot.ly should have in configuration sharing set to private, or else end user 
-data can be shared publically.
+1. Privacy: Plot.ly will serve your data publically if privacy settings are not set. Also plot settings by default will redirect users to register for an account online. Dexbot desktop app should be able to retain information locally. In order to do so, all code using plot.ly should have in configuration sharing set to private, or else end user data can be shared publically. see sample code in this repository.
 
-2. Pandas: Dexbot data prechart should be managed in pandas. 
-This library is geared for financial applications and easier to manage large amounts of financial data dynamically. 
-Do not use numpy arrays or javascript arrays for handling and parsing data
+If you want to use the online account, for the community edition that is free:
+Accounts on the Community Plan cannot save private files.  You can still save unlimited public files on Plotly, or you can upgrade your account to be able to save private files. UPGRADE HERE: https://plot.ly/products/cloud 
+To make a file public in the API, set the optional argument 'world_readable' to True.
 
-3. Real Time Updates. Plot.ly enables real time updates to charts. see https://plot.ly/python/sending-data-to-charts/
+2. Pandas: Dexbot data prechart should be managed in pandas. There are 7 different ways in which time series data can be charted. I would advise using the pandas time-series version to be consistent instead of js. It is also more powerful and less code to maintain.  The pandas library is geared for financial applications and easier to manage large amounts of financial data dynamically. I would also advise against numpy arrays or javascript arrays for handling and parsing data. 
 
-4. Interactivity: Plot.ly enables end users to modify and filter data views.  https://plot.ly/python/figurewidget-app/       
+3. Real Time Updates. Plot.ly enables real time updates to charts. modify sample code to use plotly.offline for local display.  see https://plot.ly/python/sending-data-to-charts/
+
+4. Interactivity: Plot.ly enables end users to modify and filter data views. modify sample code to use plotly.offline for local display.  https://plot.ly/python/figurewidget-app/       
 
 5. Local data display:  Use plotly offline from command line to enable html to be displayed inside of a website page.
-plot.ly runs a webserver locally when plot() is used. https://plot.ly/python/offline/#plotly-offline-from-command-line
+plot.ly runs a webserver locally when plot() is used. iplot is for notebooks such as jupyter.  https://plot.ly/python/offline/#plotly-offline-from-command-line
 
 <h4>Todo: </h4>
-Integration with existing PyQT5 desktop app or pywebview should be doable. This is a todo for investigation. 
+Investigate integration with existing PyQT5 desktop app/pywebview
 
 
 <h4> Links to additional resources: </h4>
