@@ -1,9 +1,9 @@
-import plotly.tools
 import plotly.graph_objs as go
 import pandas as pd
 
 # preserve privacy!
 from plotly.offline import download_plotlyjs, plot
+import plotly.tools
 plotly.tools.set_config_file(world_readable=False, sharing='private')
 
 
