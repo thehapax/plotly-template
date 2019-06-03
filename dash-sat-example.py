@@ -17,7 +17,8 @@ app.layout = html.Div(
     html.Div([
         html.H4('TERRA Satellite Live Feed'),
         html.Div(id='live-update-text'),
-        dcc.Graph(id='live-update-graph'),
+        # preserve privacy
+        dcc.Graph(id='live-update-graph', config={'modeBarButtonsToRemove': ['sendDataToCloud']} ), 
         dcc.Interval(
             id='interval-component',
             interval=1*1000, # in milliseconds
@@ -91,3 +92,5 @@ def update_graph_live(n):
 if __name__ == '__main__':
     app.run_server(debug=True)
 
+# use for droplet
+# app.run_server(debug=True, host='104.236.174.201', port='8050')
